@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="382.0" prefWidth="550.0" style="-fx-background-color: #2A0033; -fx-border-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arayuzler.OtoparkSecimi">
+   <children>
+      <Button fx:id="havaotoparki" layoutX="56.0" layoutY="64.0" mnemonicParsing="false" onAction="#enterhavaotoparki" prefHeight="30.0" prefWidth="438.0" style="-fx-background-color: #FCBB31;" text="HAVA OTOPARKI">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font></Button>
+      <Button fx:id="denizotoparki" layoutX="56.0" layoutY="124.0" mnemonicParsing="false" onAction="#enterdenizotoparki" prefHeight="30.0" prefWidth="438.0" style="-fx-background-color: #FCBB31;" text="DENİZ OTOPARKI">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="karaotoparki" layoutX="56.0" layoutY="184.0" mnemonicParsing="false" onAction="#enterkaraotoparki" prefHeight="30.0" prefWidth="438.0" style="-fx-background-color: #FCBB31;" text="KARA OTOPARKI">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="uzayotoparki" layoutX="56.0" layoutY="242.0" mnemonicParsing="false" onAction="#enteruzayotoparki" prefHeight="30.0" prefWidth="438.0" style="-fx-background-color: #FCBB31;" text="UZAY OTOPARKI">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="geri" layoutX="36.0" layoutY="324.0" mnemonicParsing="false" onAction="#Gerial" style="-fx-background-color: #FCBB31;" text="GERİ">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font>
+      </Button>
+
+   </children>
+</AnchorPane>

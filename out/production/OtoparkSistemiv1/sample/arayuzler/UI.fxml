@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="550.0" style="-fx-border-color: white; -fx-background-color: #2A0033;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arayuzler.UI">
+   <children>
+      <Button fx:id="girenarac" layoutX="195.0" layoutY="120.0" mnemonicParsing="false" onAction="#entergirenarac" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: #FCBB31; -fx-border-color: white;" text="GİRİŞ">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="182.0" layoutY="24.0" prefHeight="17.0" prefWidth="187.0" text="OTAPARK PARK SİSTEMİ" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="cikis" layoutX="195.0" layoutY="200.0" mnemonicParsing="false" onAction="#kapat" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: #FCBB31; -fx-border-color: white;" text="ÇIKIŞ">
+         <font>
+            <Font name="Microsoft YaHei Light" size="15.0" />
+         </font>
+      </Button>
+
+
+
+   </children>
+</AnchorPane>
